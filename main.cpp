@@ -19,12 +19,10 @@ PD: Els problemes son de les CodeWars 2019, organitzades per HP.
 using namespace std;
 
 int main(int argc, char const *argv[]){
-  stringstream strValue;
-  strValue << argv[1];
-  unsigned int intValue;
-  strValue >> intValue;
-  if(intValue > 100) cout << "Error! No has posat el numero del problema!" << endl;
-  else problemPickerLoop(intValue);
+  int intValue;
+  cout << "Quin problema? ";
+  cin >> intValue;
+  problemPickerLoop(intValue);
   return 0;
 }
 
