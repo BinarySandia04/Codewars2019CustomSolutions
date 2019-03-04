@@ -45,6 +45,7 @@ void problema1(){
   } else {
     cout << a << " lemonade jars";
   }
+  cout << endl;
 }
 // Lemonade
 void problema2(){
