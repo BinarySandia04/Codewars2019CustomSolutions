@@ -18,7 +18,7 @@ Després s'ha d'escriure el següent:
 make year=2019
 ```
 
-Aixó executara el Makefile que compilarà l'arxiu de l'edició de 2019 i alhora l'executarà. A on es posa l'argument `year` s'ha de posar l'any de l'edicio que vols probar les nostres solucions dels problemes.
+Aixó executara el Makefile que compilarà l'arxiu de l'edició de 2019 i alhora l'executarà. A on es posa l'argument `year` s'ha de posar l'any de l'edició que vols probar les nostres solucions dels problemes.
 
 Edicions que hem fet nosaltres actualment:
 
