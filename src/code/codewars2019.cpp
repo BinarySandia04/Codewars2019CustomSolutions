@@ -1,20 +1,11 @@
 // (c) Aran Roig, Unai Canudas 2019
 /*
-Aquest es un archiu en el que es la primera vegada que utilitzo el teletype d'atom amb
-l'Unai! Ell ara està molt feliç, i vol practicar per les CodeWars de l'any que ve (2020)
-ja que aquest any hem guanyat una impresora xd fent 81 punts en la categoria -16 anys.
-La veritat es que volem anar a Houston.
-
-Bé, ja que disposem del pdf amb els problemes sense resoldre, intentarem resoldre'ls
-tots (jo i l'Unai xd) abans de que acabi l'any, i tot en el mateix archiu! (No ho podem
-separar per les limitacions de teletype, pero no passa res!)
-
-PD: Els problemes son de les CodeWars 2019, organitzades per HP.
+Problemes per HP Codewars 2019
 */
 
 #include <iostream>
 #include <sstream>
-#include "menu.h"
+#include "../headers/menu.h"
 
 using namespace std;
 
