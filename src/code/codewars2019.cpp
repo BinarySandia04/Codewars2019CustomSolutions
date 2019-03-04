@@ -5,20 +5,49 @@ Problemes per HP Codewars 2019
 
 #include <iostream>
 #include <sstream>
+#include <string>
 #include "../headers/menu.h"
 
 using namespace std;
 
 int main(int argc, char const *argv[]){
-  int intValue;
+  int code;
+  cout << "Executar amb codi? ";
+  cin >> code;
+
+  string intValue;
   cout << "Quin problema? ";
   cin >> intValue;
-  problemPickerLoop(intValue);
+  if(code == 1) problemPickerLoop(intValue, true);
+  else problemPickerLoop(intValue, false);
+
   return 0;
 }
 
 // Coordinates arranger
 void problema1(){
+  /*
+  Example 1:
+    Input:
+      3
+      4
+      5
+    Output:
+      (3, 4, 5)
+  Example 2:
+    Input:
+      0
+      -7831
+      2323
+    Output:
+      (0, -7831, 2323)
+  */
+  int a, b, c;
+  cin >> a >> b >> c;
+  cout << "(" << a << ", " << b << ", " << c << ")" << endl;
+}
+// Lemonade
+void problema2(){
   /*
   Exemple 1:
   INPUT:
@@ -47,8 +76,8 @@ void problema1(){
   }
   cout << endl;
 }
-// Lemonade
-void problema2(){
+// Where will the wedding take place?
+void problema3(){
   /*
   Example 1:
     INPUT:
@@ -72,28 +101,6 @@ void problema2(){
     cout << "The wedding will take place in very big masia.";
   }
   cout << endl;
-}
-// Where will the wedding take place?
-void problema3(){
-  /*
-  Example 1:
-    Input:
-      3
-      4
-      5
-    Output:
-      (3, 4, 5)
-  Example 2:
-    Input:
-      0
-      -7831
-      2323
-    Output:
-      (0, -7831, 2323)
-  */
-  int a, b, c;
-  cin >> a >> b >> c;
-  cout << "(" << a << ", " << b << ", " << c << ")" << endl;
 }
 // Abel wants to play Fortnite!
 void problema4(){

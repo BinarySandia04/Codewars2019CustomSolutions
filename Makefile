@@ -7,18 +7,19 @@ ifdef WINDOWS
 		# Windows
 		@echo "--------------------------------------"
 		@echo "Compiling for the year $(year)"
-		g++ src/code/codewars$(year).cpp -o out/$(year).exe
+		g++ -std=c++11 src/code/codewars$(year).cpp -o out/$(year).exe
 		@echo "Compiled!"
 		@echo "--------------------------------------"
-		@out/$(year).exe
+		@cd out/;
+		@$(year).exe;
 else
 		# Linux
 		clear
 		@echo "--------------------------------------"
 		@echo "Compiling for the year $(year)"
-		g++ src/code/codewars$(year).cpp -o out/$(year)
+		g++ -std=c++11 src/code/codewars$(year).cpp -o out/$(year)
 		@echo "Compiled!"
 		@echo "--------------------------------------"
 		clear
-		@out/$(year)
+		cd out; ls; clear; ./$(year);
 endif

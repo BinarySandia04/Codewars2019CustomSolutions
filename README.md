@@ -20,6 +20,12 @@ make year=2019
 
 Aixó executara el Makefile que compilarà l'arxiu de l'edició de 2019 i alhora l'executarà. A on es posa l'argument `year` s'ha de posar l'any de l'edició que vols probar les nostres solucions dels problemes.
 
+En els archius de text dins de input, hi ha un input de proba, quan el programa compilat amb el make demani si vols compilar amb codi, si es posa:
+```
+1
+```
+aquest tindrà l'entrada de l'archiu de text del problema corresponent que eligeixis!
+
 Edicions que hem fet nosaltres actualment:
 
 Edició | Per fer | Fet
